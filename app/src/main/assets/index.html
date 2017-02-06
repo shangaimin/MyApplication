@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <title>内容样式</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/video-js.css" >
+    <script src="js/video.js"></script>
+    <script src="js/content.js"></script>
+</head>
+
+<body>
+<figure id="loading_section" style="display: none;">
+    <div class="dot white"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+</figure>
+<div id="fail_section" style="display:none">
+    <p><img src="images/blank.png" alt=""></p>
+</div>
+<div id="title_section" style="display:none">
+    <div id="title">
+        微信标题
+    </div>
+    <div id="subtitle">
+        2016-09-05
+    </div>
+</div>
+<!--微信编辑器模板开始-->
+<div id="content">
+</div>
+<!--微信编辑器模板结束-->
+<!--底部分享文章开始-->
+<footer id='footer_section' style="display:none">
+    <div class="icon-list">
+        <p class="share">分享到</p>
+        <ul id="icon">
+            <li id='shareToWeixin'>
+                <p><img src="images/wechat.png" alt=""></p>
+                <p>微信</p>
+            </li>
+            <li id='shareToPenYouQuan'>
+                <p><img src="images/friends.png" alt=""></p>
+                <p>微信朋友圈</p>
+            </li>
+            <li id='shareToWeiBo'>
+                <p><img src="images/sina.png" alt=""></p>
+                <p>新浪微博</p>
+            </li>
+            <li id="shareToMore">
+                <p><img src="images/more.png" alt=""></p>
+                <p>更多</p>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <!--相关产品开始-->
+    <div id="products_section" class="product-list" style="display:none">
+    </div>
+    <!--相关产品结束-->
+    <!--相关文章开始-->
+    <div id="article_section" class="article-list" style="display:none">
+    </div>
+    <!--相关文章结束-->
+</footer>
+<!--底部分享文章结束-->
+</body>
+
+</html>
